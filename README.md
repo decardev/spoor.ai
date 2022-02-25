@@ -1,4 +1,4 @@
-# Spoor.ai test task
+# Spoor.ai test task (5 hours)
 
 ## Commands used to init project
 
@@ -30,8 +30,18 @@ pre-commit install
 As every block is working linearly and depends on execution of previous blocks to finish, the code is extremily inneficient.
 Ways to mitigate such problem:
 
-- Create a E-T-L workflow per unit of extraction.
-- async extraction of frames from mp4 video into variables
-- individual or grouped loading of frames to yolov3 model (depends on memory limits)
-- async saving of yolov3 model into sqlite database
-- result of all blocks is passed to the block creating graphs
+- Connected tasks
+  - The model has to be improved
+  - Create a E-T-L workflow per unit of extraction.
+  - async extraction of frames from mp4 video into variables
+  - individual or grouped loading of frames to yolov3 model (depends on memory limits)
+  - async saving of yolov3 model into sqlite database
+  - result of all blocks is passed to the block creating graphs
+- CI/CD
+  - Add better pre-commit hooks to void commiting garbage code
+  - Add github actions to check in other data
+  - There are no test tasks deployed in pylint
+
+## Time used for implementation
+
+The project took me aprox 5 hours. where almoust 1 was used downloading the files for yolov3 and torch.

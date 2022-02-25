@@ -1,5 +1,7 @@
 # Spoor.ai test task (5 hours)
 
+[Youtube short explanation](https://youtu.be/BY3kKqCn8mg)
+
 ## Commands used to init project
 
 ```console

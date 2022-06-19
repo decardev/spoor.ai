@@ -43,3 +43,4 @@ def csv_to_sqlite(file: str, db: str = "./data/sqlite.db", link: bool = True) ->
 # Allows typer exection in termial environment
 if __name__ == "__main__":
     typer.run(csv_to_sqlite.run)
+    #This new modification

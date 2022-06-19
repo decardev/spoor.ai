@@ -87,3 +87,4 @@ def sql_to_graph(database: str, output: str = "./data", link: bool = True) -> bo
 # Allows typer exection in termial environment
 if __name__ == "__main__":
     typer.run(sql_to_graph.run)
+    #Random modification
